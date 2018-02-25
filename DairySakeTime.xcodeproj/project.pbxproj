@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C44FE8FD20427FAA00C1B94F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44FE8FC20427FAA00C1B94F /* AppDelegate.swift */; };
+		C44FE8FF20427FAA00C1B94F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44FE8FE20427FAA00C1B94F /* ViewController.swift */; };
+		C44FE90220427FAA00C1B94F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44FE90020427FAA00C1B94F /* Main.storyboard */; };
+		C44FE90420427FAA00C1B94F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44FE90320427FAA00C1B94F /* Assets.xcassets */; };
+		C44FE90720427FAA00C1B94F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44FE90520427FAA00C1B94F /* LaunchScreen.storyboard */; };
+		C44FE91220427FAA00C1B94F /* DairySakeTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44FE91120427FAA00C1B94F /* DairySakeTimeTests.swift */; };
+		C44FE91D20427FAA00C1B94F /* DairySakeTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44FE91C20427FAA00C1B94F /* DairySakeTimeUITests.swift */; };
+		C44FE92C204280BE00C1B94F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C44FE92B204280BE00C1B94F /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C44FE90E20427FAA00C1B94F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C44FE8F120427FAA00C1B94F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C44FE8F820427FAA00C1B94F;
+			remoteInfo = DairySakeTime;
+		};
+		C44FE91920427FAA00C1B94F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C44FE8F120427FAA00C1B94F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C44FE8F820427FAA00C1B94F;
+			remoteInfo = DairySakeTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C44FE8F920427FAA00C1B94F /* DairySakeTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DairySakeTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44FE8FC20427FAA00C1B94F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C44FE8FE20427FAA00C1B94F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C44FE90120427FAA00C1B94F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C44FE90320427FAA00C1B94F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C44FE90620427FAA00C1B94F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C44FE90820427FAA00C1B94F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44FE90D20427FAA00C1B94F /* DairySakeTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DairySakeTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44FE91120427FAA00C1B94F /* DairySakeTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DairySakeTimeTests.swift; sourceTree = "<group>"; };
+		C44FE91320427FAA00C1B94F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44FE91820427FAA00C1B94F /* DairySakeTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DairySakeTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44FE91C20427FAA00C1B94F /* DairySakeTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DairySakeTimeUITests.swift; sourceTree = "<group>"; };
+		C44FE91E20427FAA00C1B94F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44FE92B204280BE00C1B94F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C44FE8F620427FAA00C1B94F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44FE90A20427FAA00C1B94F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44FE91520427FAA00C1B94F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C44FE8F020427FAA00C1B94F = {
+			isa = PBXGroup;
+			children = (
+				C44FE8FB20427FAA00C1B94F /* DairySakeTime */,
+				C44FE91020427FAA00C1B94F /* DairySakeTimeTests */,
+				C44FE91B20427FAA00C1B94F /* DairySakeTimeUITests */,
+				C44FE8FA20427FAA00C1B94F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C44FE8FA20427FAA00C1B94F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C44FE8F920427FAA00C1B94F /* DairySakeTime.app */,
+				C44FE90D20427FAA00C1B94F /* DairySakeTimeTests.xctest */,
+				C44FE91820427FAA00C1B94F /* DairySakeTimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C44FE8FB20427FAA00C1B94F /* DairySakeTime */ = {
+			isa = PBXGroup;
+			children = (
+				C44FE92A204280AD00C1B94F /* Resource */,
+				C44FE8FC20427FAA00C1B94F /* AppDelegate.swift */,
+				C44FE8FE20427FAA00C1B94F /* ViewController.swift */,
+				C44FE90020427FAA00C1B94F /* Main.storyboard */,
+				C44FE90320427FAA00C1B94F /* Assets.xcassets */,
+				C44FE90520427FAA00C1B94F /* LaunchScreen.storyboard */,
+				C44FE90820427FAA00C1B94F /* Info.plist */,
+			);
+			path = DairySakeTime;
+			sourceTree = "<group>";
+		};
+		C44FE91020427FAA00C1B94F /* DairySakeTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C44FE91120427FAA00C1B94F /* DairySakeTimeTests.swift */,
+				C44FE91320427FAA00C1B94F /* Info.plist */,
+			);
+			path = DairySakeTimeTests;
+			sourceTree = "<group>";
+		};
+		C44FE91B20427FAA00C1B94F /* DairySakeTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C44FE91C20427FAA00C1B94F /* DairySakeTimeUITests.swift */,
+				C44FE91E20427FAA00C1B94F /* Info.plist */,
+			);
+			path = DairySakeTimeUITests;
+			sourceTree = "<group>";
+		};
+		C44FE92A204280AD00C1B94F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C44FE92B204280BE00C1B94F /* GoogleService-Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C44FE8F820427FAA00C1B94F /* DairySakeTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44FE92120427FAA00C1B94F /* Build configuration list for PBXNativeTarget "DairySakeTime" */;
+			buildPhases = (
+				C44FE8F520427FAA00C1B94F /* Sources */,
+				C44FE8F620427FAA00C1B94F /* Frameworks */,
+				C44FE8F720427FAA00C1B94F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DairySakeTime;
+			productName = DairySakeTime;
+			productReference = C44FE8F920427FAA00C1B94F /* DairySakeTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C44FE90C20427FAA00C1B94F /* DairySakeTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44FE92420427FAA00C1B94F /* Build configuration list for PBXNativeTarget "DairySakeTimeTests" */;
+			buildPhases = (
+				C44FE90920427FAA00C1B94F /* Sources */,
+				C44FE90A20427FAA00C1B94F /* Frameworks */,
+				C44FE90B20427FAA00C1B94F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C44FE90F20427FAA00C1B94F /* PBXTargetDependency */,
+			);
+			name = DairySakeTimeTests;
+			productName = DairySakeTimeTests;
+			productReference = C44FE90D20427FAA00C1B94F /* DairySakeTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C44FE91720427FAA00C1B94F /* DairySakeTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44FE92720427FAA00C1B94F /* Build configuration list for PBXNativeTarget "DairySakeTimeUITests" */;
+			buildPhases = (
+				C44FE91420427FAA00C1B94F /* Sources */,
+				C44FE91520427FAA00C1B94F /* Frameworks */,
+				C44FE91620427FAA00C1B94F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C44FE91A20427FAA00C1B94F /* PBXTargetDependency */,
+			);
+			name = DairySakeTimeUITests;
+			productName = DairySakeTimeUITests;
+			productReference = C44FE91820427FAA00C1B94F /* DairySakeTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C44FE8F120427FAA00C1B94F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Tagayasu;
+				TargetAttributes = {
+					C44FE8F820427FAA00C1B94F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C44FE90C20427FAA00C1B94F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C44FE8F820427FAA00C1B94F;
+					};
+					C44FE91720427FAA00C1B94F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C44FE8F820427FAA00C1B94F;
+					};
+				};
+			};
+			buildConfigurationList = C44FE8F420427FAA00C1B94F /* Build configuration list for PBXProject "DairySakeTime" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C44FE8F020427FAA00C1B94F;
+			productRefGroup = C44FE8FA20427FAA00C1B94F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C44FE8F820427FAA00C1B94F /* DairySakeTime */,
+				C44FE90C20427FAA00C1B94F /* DairySakeTimeTests */,
+				C44FE91720427FAA00C1B94F /* DairySakeTimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C44FE8F720427FAA00C1B94F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44FE90720427FAA00C1B94F /* LaunchScreen.storyboard in Resources */,
+				C44FE90420427FAA00C1B94F /* Assets.xcassets in Resources */,
+				C44FE90220427FAA00C1B94F /* Main.storyboard in Resources */,
+				C44FE92C204280BE00C1B94F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44FE90B20427FAA00C1B94F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44FE91620427FAA00C1B94F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C44FE8F520427FAA00C1B94F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44FE8FF20427FAA00C1B94F /* ViewController.swift in Sources */,
+				C44FE8FD20427FAA00C1B94F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44FE90920427FAA00C1B94F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44FE91220427FAA00C1B94F /* DairySakeTimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44FE91420427FAA00C1B94F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44FE91D20427FAA00C1B94F /* DairySakeTimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C44FE90F20427FAA00C1B94F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C44FE8F820427FAA00C1B94F /* DairySakeTime */;
+			targetProxy = C44FE90E20427FAA00C1B94F /* PBXContainerItemProxy */;
+		};
+		C44FE91A20427FAA00C1B94F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C44FE8F820427FAA00C1B94F /* DairySakeTime */;
+			targetProxy = C44FE91920427FAA00C1B94F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C44FE90020427FAA00C1B94F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44FE90120427FAA00C1B94F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C44FE90520427FAA00C1B94F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44FE90620427FAA00C1B94F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C44FE91F20427FAA00C1B94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C44FE92020427FAA00C1B94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C44FE92220427FAA00C1B94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QQHRA372Z;
+				INFOPLIST_FILE = DairySakeTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tagayasu.DairySakeTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C44FE92320427FAA00C1B94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QQHRA372Z;
+				INFOPLIST_FILE = DairySakeTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tagayasu.DairySakeTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C44FE92520427FAA00C1B94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QQHRA372Z;
+				INFOPLIST_FILE = DairySakeTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tagayasu.DairySakeTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DairySakeTime.app/DairySakeTime";
+			};
+			name = Debug;
+		};
+		C44FE92620427FAA00C1B94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QQHRA372Z;
+				INFOPLIST_FILE = DairySakeTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tagayasu.DairySakeTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DairySakeTime.app/DairySakeTime";
+			};
+			name = Release;
+		};
+		C44FE92820427FAA00C1B94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QQHRA372Z;
+				INFOPLIST_FILE = DairySakeTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tagayasu.DairySakeTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DairySakeTime;
+			};
+			name = Debug;
+		};
+		C44FE92920427FAA00C1B94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QQHRA372Z;
+				INFOPLIST_FILE = DairySakeTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tagayasu.DairySakeTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DairySakeTime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C44FE8F420427FAA00C1B94F /* Build configuration list for PBXProject "DairySakeTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44FE91F20427FAA00C1B94F /* Debug */,
+				C44FE92020427FAA00C1B94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C44FE92120427FAA00C1B94F /* Build configuration list for PBXNativeTarget "DairySakeTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44FE92220427FAA00C1B94F /* Debug */,
+				C44FE92320427FAA00C1B94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C44FE92420427FAA00C1B94F /* Build configuration list for PBXNativeTarget "DairySakeTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44FE92520427FAA00C1B94F /* Debug */,
+				C44FE92620427FAA00C1B94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C44FE92720427FAA00C1B94F /* Build configuration list for PBXNativeTarget "DairySakeTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44FE92820427FAA00C1B94F /* Debug */,
+				C44FE92920427FAA00C1B94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C44FE8F120427FAA00C1B94F /* Project object */;
+}

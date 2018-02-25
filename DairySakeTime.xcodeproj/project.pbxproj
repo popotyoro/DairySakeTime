@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DFD0C755656EBD9829851CB /* Pods_DairySakeTimeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B6643A909E16C3E48EA40F /* Pods_DairySakeTimeTests.framework */; };
+		337A262D8EFACBE6EBBD5005 /* Pods_DairySakeTimeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C0ECB9FAE72E5911550BBAE /* Pods_DairySakeTimeUITests.framework */; };
 		C44FE8FD20427FAA00C1B94F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44FE8FC20427FAA00C1B94F /* AppDelegate.swift */; };
 		C44FE8FF20427FAA00C1B94F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44FE8FE20427FAA00C1B94F /* ViewController.swift */; };
 		C44FE90220427FAA00C1B94F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44FE90020427FAA00C1B94F /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		C44FE91220427FAA00C1B94F /* DairySakeTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44FE91120427FAA00C1B94F /* DairySakeTimeTests.swift */; };
 		C44FE91D20427FAA00C1B94F /* DairySakeTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44FE91C20427FAA00C1B94F /* DairySakeTimeUITests.swift */; };
 		C44FE92C204280BE00C1B94F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C44FE92B204280BE00C1B94F /* GoogleService-Info.plist */; };
+		F0DE6E1E18EAA5CE1D8BAE0C /* Pods_DairySakeTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8BE3CC0BCCAFEEA14D1C81F /* Pods_DairySakeTime.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F44AF95DD6732CC7147A0B4 /* Pods-DairySakeTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DairySakeTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-DairySakeTime/Pods-DairySakeTime.release.xcconfig"; sourceTree = "<group>"; };
+		667C4277241648012F156D32 /* Pods-DairySakeTimeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DairySakeTimeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DairySakeTimeUITests/Pods-DairySakeTimeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D17D1B529F494B9A17A793C /* Pods-DairySakeTimeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DairySakeTimeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DairySakeTimeUITests/Pods-DairySakeTimeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9C0ECB9FAE72E5911550BBAE /* Pods_DairySakeTimeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DairySakeTimeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4CDCD238A8527181533857 /* Pods-DairySakeTimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DairySakeTimeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DairySakeTimeTests/Pods-DairySakeTimeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8B6643A909E16C3E48EA40F /* Pods_DairySakeTimeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DairySakeTimeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44FE8F920427FAA00C1B94F /* DairySakeTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DairySakeTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44FE8FC20427FAA00C1B94F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C44FE8FE20427FAA00C1B94F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		C44FE91C20427FAA00C1B94F /* DairySakeTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DairySakeTimeUITests.swift; sourceTree = "<group>"; };
 		C44FE91E20427FAA00C1B94F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C44FE92B204280BE00C1B94F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C8BE3CC0BCCAFEEA14D1C81F /* Pods_DairySakeTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DairySakeTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8EFB5C14E1E7B29BDC5832 /* Pods-DairySakeTimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DairySakeTimeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DairySakeTimeTests/Pods-DairySakeTimeTests.release.xcconfig"; sourceTree = "<group>"; };
+		CD02A42C25D0D92D6ED1BA13 /* Pods-DairySakeTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DairySakeTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DairySakeTime/Pods-DairySakeTime.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0DE6E1E18EAA5CE1D8BAE0C /* Pods_DairySakeTime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DFD0C755656EBD9829851CB /* Pods_DairySakeTimeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				337A262D8EFACBE6EBBD5005 /* Pods_DairySakeTimeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35874F698F76E4B0F54B3203 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD02A42C25D0D92D6ED1BA13 /* Pods-DairySakeTime.debug.xcconfig */,
+				5F44AF95DD6732CC7147A0B4 /* Pods-DairySakeTime.release.xcconfig */,
+				AD4CDCD238A8527181533857 /* Pods-DairySakeTimeTests.debug.xcconfig */,
+				CB8EFB5C14E1E7B29BDC5832 /* Pods-DairySakeTimeTests.release.xcconfig */,
+				667C4277241648012F156D32 /* Pods-DairySakeTimeUITests.debug.xcconfig */,
+				7D17D1B529F494B9A17A793C /* Pods-DairySakeTimeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A17D9D23D371C7B6FFFB8E41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8BE3CC0BCCAFEEA14D1C81F /* Pods_DairySakeTime.framework */,
+				B8B6643A909E16C3E48EA40F /* Pods_DairySakeTimeTests.framework */,
+				9C0ECB9FAE72E5911550BBAE /* Pods_DairySakeTimeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C44FE8F020427FAA00C1B94F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				C44FE91020427FAA00C1B94F /* DairySakeTimeTests */,
 				C44FE91B20427FAA00C1B94F /* DairySakeTimeUITests */,
 				C44FE8FA20427FAA00C1B94F /* Products */,
+				35874F698F76E4B0F54B3203 /* Pods */,
+				A17D9D23D371C7B6FFFB8E41 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C44FE92120427FAA00C1B94F /* Build configuration list for PBXNativeTarget "DairySakeTime" */;
 			buildPhases = (
+				BB891DC8ABA248E36EBEFB3C /* [CP] Check Pods Manifest.lock */,
 				C44FE8F520427FAA00C1B94F /* Sources */,
 				C44FE8F620427FAA00C1B94F /* Frameworks */,
 				C44FE8F720427FAA00C1B94F /* Resources */,
+				A152F2813C13B347FC3DA785 /* [CP] Embed Pods Frameworks */,
+				47A2565EFD80550D472D027A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C44FE92420427FAA00C1B94F /* Build configuration list for PBXNativeTarget "DairySakeTimeTests" */;
 			buildPhases = (
+				A05A35297FF635CE660A8761 /* [CP] Check Pods Manifest.lock */,
 				C44FE90920427FAA00C1B94F /* Sources */,
 				C44FE90A20427FAA00C1B94F /* Frameworks */,
 				C44FE90B20427FAA00C1B94F /* Resources */,
+				2054C3DAE185DB9C4EECED4A /* [CP] Embed Pods Frameworks */,
+				957677CB2B9E100752FA43ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C44FE92720427FAA00C1B94F /* Build configuration list for PBXNativeTarget "DairySakeTimeUITests" */;
 			buildPhases = (
+				A38045A8505E32620AD973FE /* [CP] Check Pods Manifest.lock */,
 				C44FE91420427FAA00C1B94F /* Sources */,
 				C44FE91520427FAA00C1B94F /* Frameworks */,
 				C44FE91620427FAA00C1B94F /* Resources */,
+				FADD9B4764FD78AE52E4E1F3 /* [CP] Embed Pods Frameworks */,
+				1299FA04025E7BED5599CD10 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,6 +314,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1299FA04025E7BED5599CD10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DairySakeTimeUITests/Pods-DairySakeTimeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2054C3DAE185DB9C4EECED4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DairySakeTimeTests/Pods-DairySakeTimeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47A2565EFD80550D472D027A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DairySakeTime/Pods-DairySakeTime-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		957677CB2B9E100752FA43ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DairySakeTimeTests/Pods-DairySakeTimeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A05A35297FF635CE660A8761 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DairySakeTimeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A152F2813C13B347FC3DA785 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DairySakeTime/Pods-DairySakeTime-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DairySakeTime/Pods-DairySakeTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A38045A8505E32620AD973FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DairySakeTimeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB891DC8ABA248E36EBEFB3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DairySakeTime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FADD9B4764FD78AE52E4E1F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DairySakeTimeUITests/Pods-DairySakeTimeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C44FE8F520427FAA00C1B94F /* Sources */ = {
@@ -436,6 +635,7 @@
 		};
 		C44FE92220427FAA00C1B94F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD02A42C25D0D92D6ED1BA13 /* Pods-DairySakeTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +651,7 @@
 		};
 		C44FE92320427FAA00C1B94F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F44AF95DD6732CC7147A0B4 /* Pods-DairySakeTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +667,7 @@
 		};
 		C44FE92520427FAA00C1B94F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD4CDCD238A8527181533857 /* Pods-DairySakeTimeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -483,6 +685,7 @@
 		};
 		C44FE92620427FAA00C1B94F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB8EFB5C14E1E7B29BDC5832 /* Pods-DairySakeTimeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -500,6 +703,7 @@
 		};
 		C44FE92820427FAA00C1B94F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 667C4277241648012F156D32 /* Pods-DairySakeTimeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -516,6 +720,7 @@
 		};
 		C44FE92920427FAA00C1B94F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D17D1B529F494B9A17A793C /* Pods-DairySakeTimeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
